@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>ゆる体重ノート - 変動に寄り添う記録</title>
+  <style>
+    :root {
+      --bg-top: #F2F6FA;
+      --bg-bot: #E8F0F8;
+      --card: #FFFFFF;
+      --mist: #EBF2F8;
+      --border: #D8E3EE;
+      --blue: #3B6E9C;
+      --sage: #639388;
+      --ink: #24303C;
+      --sub: #637384;
+    }
+    * { box-sizing: border-box; margin: 0; padding: 0; }
+    body {
+      font-family: "Hiragino Kaku Gothic ProN", "Yu Gothic", "Meiryo", -apple-system, sans-serif;
+      background: linear-gradient(160deg, var(--bg-top), var(--bg-bot));
+      color: var(--ink);
+      line-height: 1.8;
+      padding: 36px 20px 64px;
+      min-height: 100vh;
+    }
+    .wrap { max-width: 860px; margin: 0 auto; }
+    .nav { margin-bottom: 22px; font-size: 14px; display: flex; flex-wrap: wrap; gap: 16px; }
+    .nav a { color: var(--blue); text-decoration: none; font-weight: 700; }
+    .hero {
+      background: var(--card);
+      border: 1.5px solid var(--border);
+      border-radius: 22px;
+      padding: 34px 28px;
+      margin-bottom: 20px;
+      box-shadow: 0 10px 28px rgba(59, 110, 156, 0.08);
+    }
+    .badge {
+      display: inline-block;
+      background: var(--mist);
+      color: var(--blue);
+      font-size: 12px;
+      font-weight: 700;
+      padding: 4px 12px;
+      border-radius: 999px;
+      margin-bottom: 12px;
+    }
+    h1 { font-size: 28px; color: var(--ink); margin-bottom: 10px; }
+    p { color: var(--sub); font-size: 15px; margin-bottom: 12px; }
+    .grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(230px, 1fr)); gap: 14px; margin-top: 18px; }
+    .box {
+      background: var(--mist);
+      border: 1px solid var(--border);
+      border-radius: 16px;
+      padding: 18px;
+    }
+    .box h2 { font-size: 16px; color: var(--blue); margin-bottom: 6px; }
+    .box p { font-size: 13.5px; margin-bottom: 0; }
+    .notice {
+      background: #EAF4F1;
+      border: 1px solid rgba(99, 147, 136, 0.35);
+      border-radius: 16px;
+      padding: 18px 20px;
+      margin-top: 20px;
+      font-size: 13.5px;
+      color: var(--ink);
+    }
+    .footer { margin-top: 26px; font-size: 12.5px; color: var(--sub); }
+  </style>
+</head>
+<body>
+  <div class="wrap">
+    <nav class="nav">
+      <a href="index.html">ホーム</a>
+      <a href="privacy-policy.html">プライバシーポリシー</a>
+      <a href="terms.html">利用規約</a>
+      <a href="support.html">サポート窓口</a>
+    </nav>
+
+    <section class="hero">
+      <span class="badge">完全オフライン · 広告ゼロ · 日本向け安心設計</span>
+      <h1>ゆる体重ノート - 変動に寄り添う記録</h1>
+      <p>
+        毎日のちょっとした増減に一喜一憂せず、7日間の移動平均ラインでおだやかなリズムを見守るライフスタイル手帖アプリです（Bundle ID: <code>jp.scalebuddy.weightlog</code>）。
+      </p>
+
+      <div class="grid">
+        <div class="box">
+          <h2>7日移動平均のやさしい曲線</h2>
+          <p>単日の塩分・水分ゆらぎの点と、なめらかな7日平均線を重ねて表示。数字ぼかしモードで不安を手放せます。</p>
+        </div>
+        <div class="box">
+          <h2>4人の日系パートナー</h2>
+          <p>外食の翌朝はユーモアで和ませ、停滞期やむくみ期はやさしい水分解説でこころを整えてくれます。</p>
+        </div>
+        <div class="box">
+          <h2>Layer-0 こころの安全ガード</h2>
+          <p>低体重や急激な変化、つらい言葉が入力された際は自動で保護モードへ切り替わり、公的相談窓口をご案内します。</p>
+        </div>
+      </div>
+
+      <div class="notice">
+        <strong>非医療に関する大切なお知らせ：</strong><br />
+        本アプリは日々の体重や気分の変化を穏やかに記録・可視化するためのライフスタイル手帖であり、医療機器または医師による診断・治療・医学的アドバイスを目的としたものではありません。体調や心身に不安がある場合は、専門の医療機関または公的相談窓口（厚生労働省「まもろうよ こころ」など）へご相談ください。
+      </div>
+    </section>
+
+    <p class="footer">
+      対象アプリ：ゆる体重ノート（<code>jp.scalebuddy.weightlog</code>）｜お問い合わせ：<a href="mailto:sg12101517@gmail.com">sg12101517@gmail.com</a>
+    </p>
+  </div>
+</body>
+</html>
